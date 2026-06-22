@@ -8,6 +8,22 @@ Một dự án game nhập vai hành động 2D (Action RPG) phong cách Pixel A
 
 ---
 
+## 📸 Hình Ảnh Demo (Screenshots)
+
+<p align="center">
+  <img src="menu_start.png" width="800" alt="Màn hình Start Game">
+  <br>
+  <i>Giao diện Khởi động (Start Menu)</i>
+</p>
+
+<p align="center">
+  <img src="menu_gameover.png" width="800" alt="Màn hình Game Over">
+  <br>
+  <i>Giao diện Kết thúc (Game Over)</i>
+</p>
+
+---
+
 ## 🎮 Tính Năng Hiện Tại (Core Features)
 
 Dự án hiện đang ở phiên bản Demo nhưng đã hoàn thiện các cơ chế cốt lõi của một tựa game RPG:
