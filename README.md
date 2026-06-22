@@ -17,10 +17,35 @@ Một dự án game nhập vai hành động 2D (Action RPG) phong cách Pixel A
 </p>
 
 <p align="center">
+  <img src="giaodienGame.png" width="800" alt="Giao diện Gameplay">
+  <br>
+  <i>Giao diện chiến đấu với Quái vật và hiển thị Cấp độ (Gameplay)</i>
+</p>
+
+<p align="center">
+  <img src="test.png" width="800" alt="Test Tính Năng">
+  <br>
+  <i>Giao diện thiết kế trên Godot Engine (Editor View)</i>
+</p>
+
+<p align="center">
   <img src="menu_gameover.png" width="800" alt="Màn hình Game Over">
   <br>
   <i>Giao diện Kết thúc (Game Over)</i>
 </p>
+
+---
+
+## 🧠 Kiến Thức Yêu Cầu (Prerequisites)
+
+Để tiếp cận và tự tay phát triển được dự án này, người học cần trang bị một số nền tảng kiến thức cơ bản:
+
+1. **Lập Trình Hướng Đối Tượng (OOP) với C#:** Hiểu rõ cách khai báo Class, sử dụng thuộc tính (Properties), phương thức (Methods) và khái niệm Kế thừa (Inheritance) — ví dụ như `Player` kế thừa từ `CharacterBody2D`.
+2. **Toán Học Không Gian Trục Tọa Độ:** Sử dụng `Vector2` để tính toán trục tọa độ (X, Y). Sử dụng hàm `DistanceTo()` để tính toán khoảng cách vật lý giữa 2 đối tượng nhằm kích hoạt tấn công.
+3. **Kiến thức nền tảng về Godot Engine 4:**
+   - Hiểu cấu trúc **Cây Node (Scene Tree)** và cách các Node giao tiếp với nhau (Sử dụng `GetNode<T>()`).
+   - Phân biệt được sự khác nhau giữa vòng lặp `_Process` (Render UI/Logic nhẹ) và `_PhysicsProcess` (Xử lý di chuyển, va chạm vật lý).
+   - Biết cách nối và sử dụng các Sự kiện (Signals) như `AnimationFinished`.
 
 ---
 
